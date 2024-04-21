@@ -98,7 +98,7 @@ button {
 
 .contacts-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contacts-link {
