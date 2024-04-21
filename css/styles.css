@@ -45,6 +45,10 @@ button {
   cursor: pointer;
 }
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header-container {
   display: flex;
   justify-content: space-between;
@@ -59,7 +63,7 @@ button {
 
 .navigation-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .page-logo {
@@ -70,6 +74,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -119,11 +124,12 @@ button {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding: 188px 0;
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
   padding-left: 331px;
   padding-right: 331px;
 }
@@ -135,6 +141,7 @@ button {
   text-align: center;
   color: #ffffff;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -211,10 +218,11 @@ button {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-wrap {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .section-title {
@@ -234,6 +242,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
